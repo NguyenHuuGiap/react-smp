@@ -1,0 +1,168 @@
+{
+  "header": {
+    "title": "Hello React - NHG",
+    "menu": {
+      "logo": "NHG - Start React",
+      "menu": "Menu",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "about": "About",
+      "team": "Team",
+      "contact": "Contact"
+    }
+  },
+  "body": {
+    "header": {
+      "wellcome": "Welcome To Our Studio!",
+      "title": "It's Nice To Meet You",
+      "seemore": "Tell Me More"
+    },
+    "nameservice": "Services",
+    "descservice": "Lorem ipsum dolor sit amet consectetur.",
+    "services": [
+      {
+        "icon": "fas fa-shopping-cart fa-stack-1x fa-inverse",
+        "name": "E-Commerce",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      },
+      {
+        "icon": "fas fa-laptop fa-stack-1x fa-inverse",
+        "name": "Responsive Design",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      },
+      {
+        "icon": "fas fa-lock fa-stack-1x fa-inverse",
+        "name": "Web Security",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      }
+    ],
+    "portfolio": {
+      "name": "Portfolio",
+      "desc": "Lorem ipsum dolor sit amet consectetur.",
+      "details": [
+        {
+          "img": "img/portfolio/01-thumbnail.jpg",
+          "title": "Threads",
+          "desc": "Illustration"
+        },
+        {
+          "img": "img/portfolio/02-thumbnail.jpg",
+          "title": "Explore",
+          "desc": "Graphic Design"
+        },
+        {
+          "img": "img/portfolio/03-thumbnail.jpg",
+          "title": "Finish",
+          "desc": "Identity"
+        },
+        {
+          "img": "img/portfolio/04-thumbnail.jpg",
+          "title": "Lines",
+          "desc": "Branding"
+        },
+        {
+          "img": "img/portfolio/05-thumbnail.jpg",
+          "title": "Southwest",
+          "desc": "Website Design"
+        },
+        {
+          "img": "img/portfolio/06-thumbnail.jpg",
+          "title": "Windown",
+          "desc": "Photography"
+        }
+      ]
+    },
+    "abouts": {
+      "name": "About",
+      "desc": "Lorem ipsum dolor sit amet consectetur.",
+      "klass": "timeline-inverted",
+      "h4": "Be Part",
+      "br1": "Of Our",
+      "br2": "Story!",
+      "details": [
+        {
+          "klass": "",
+          "img": "img/about/1.jpg",
+          "year": "2009-2011",
+          "title": "Our Humble Beginnings",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        },
+        {
+          "klass": "timeline-inverted",
+          "img": "img/about/2.jpg",
+          "year": "March 2011",
+          "title": "An Agency is Born",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        },
+        {
+          "klass": "",
+          "img": "img/about/3.jpg",
+          "year": "December 2012",
+          "title": "Transition to Full Service",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        },
+        {
+          "klass": "timeline-inverted",
+          "img": "img/about/4.jpg",
+          "year": "December 2012",
+          "title": "Transition to Full Service",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        }
+      ]
+    },
+    "teams": {
+      "title": "OUR AMAZING TEAM",
+      "desc": "Lorem ipsum dolor sit amet consectetur.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.",
+      "details": [
+        {
+          "img": "img/team/1.jpg",
+          "name": "Kay Garland",
+          "role": "Lead Designer"
+        },
+        {
+          "img": "img/team/2.jpg",
+          "name": "Larry Parker",
+          "role": "Lead Marketer"
+        },
+        {
+          "img": "img/team/3.jpg",
+          "name": "Diana Pertersen",
+          "role": "Lead Developer"
+        }
+      ]
+    },
+    "partners": {
+      "details": [
+        {
+          "img": "img/logos/envato.jpg"
+        },
+        {
+          "img": "img/logos/designmodo.jpg"
+        },
+        {
+          "img": "img/logos/themeforest.jpg"
+        },
+        {
+          "img": "img/logos/creative-market.jpg"
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Contact Us",
+      "desc": "Lorem ipsum dolor sit amet consectetur.",
+      "form": {
+        "button": "Send Message",
+        "placeholder_name": "Please enter your name.",
+        "placeholder_email": "Please enter your email address.",
+        "placeholder_phone": "Please enter your phone number.",
+        "placeholder_message": "Please enter a message."
+      }
+    }
+  },
+  "footers": {
+    "copyright": "Copyright © Your Website 2019",
+    "policy": "Privacy Policy",
+    "term_of_use": "Term Of Use"
+  }
+}
