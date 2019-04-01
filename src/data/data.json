@@ -4,7 +4,7 @@
     "menu": {
       "logo": "NHG - Start React",
       "menu": "Menu",
-      "services": "Services",
+      "services": "Services11",
       "portfolio": "Portfolio",
       "about": "About",
       "team": "Team",
@@ -41,6 +41,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur.",
       "details": [
         {
+          "id": "1",
           "img": "img/portfolio/01-thumbnail.jpg",
           "title": "Threads",
           "desc": "Illustration"
@@ -116,16 +117,19 @@
       "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.",
       "details": [
         {
+          "id": "1",
           "img": "img/team/1.jpg",
           "name": "Kay Garland",
           "role": "Lead Designer"
         },
         {
+          "id": "2",
           "img": "img/team/2.jpg",
           "name": "Larry Parker",
           "role": "Lead Marketer"
         },
         {
+          "id": "3",
           "img": "img/team/3.jpg",
           "name": "Diana Pertersen",
           "role": "Lead Developer"

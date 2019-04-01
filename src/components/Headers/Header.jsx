@@ -11,8 +11,8 @@ export default class Header extends Component {
       <div>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content />
-        <meta name="author" content />
+        <meta name="description" content="true" />
+        <meta name="author" content="true" />
         <title>{this.props.data.header.title}</title>
         {/* Bootstrap core CSS */}
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />

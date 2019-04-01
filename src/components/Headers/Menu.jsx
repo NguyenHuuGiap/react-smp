@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 export default class Menu extends Component {
   constructor(props) {
@@ -7,8 +8,8 @@ export default class Menu extends Component {
 
   render() {
     return (
-      <div>
-        <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <Fragment>
+        <nav className="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
           <div className="container">
             <a className="navbar-brand js-scroll-trigger" href="#page-top">{this.props.data.header.menu.logo}</a>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,25 +19,28 @@ export default class Menu extends Component {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav text-uppercase ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#services">{this.props.data.header.menu.services}</a>
+                  <Link className="nav-link js-scroll-trigger" to="/home">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#portfolio">{this.props.data.header.menu.portfolio}</a>
+                  <Link className="nav-link js-scroll-trigger" to="/services">{this.props.data.header.menu.services}</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#about">{this.props.data.header.menu.about}</a>
+                  <Link className="nav-link js-scroll-trigger" to="#portfolio">{this.props.data.header.menu.portfolio}</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#team">{this.props.data.header.menu.team}</a>
+                  <Link className="nav-link js-scroll-trigger" to="/about">{this.props.data.header.menu.about}</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#contact">{this.props.data.header.menu.contact}</a>
+                  <Link className="nav-link js-scroll-trigger" to="/teams">{this.props.data.header.menu.team}</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link js-scroll-trigger" to="/contact">{this.props.data.header.menu.contact}</Link>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-      </div>
+      </Fragment>
     )
   }
 }

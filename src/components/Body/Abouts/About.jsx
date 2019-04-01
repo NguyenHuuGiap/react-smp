@@ -9,7 +9,7 @@ export default class About extends Component {
     return (
       <li className={this.props.data.klass}>
         <div className="timeline-image">
-          <img className="rounded-circle img-fluid" src={this.props.data.img} alt />
+          <img className="rounded-circle img-fluid" src={this.props.data.img} alt={this.props.data.img} />
         </div>
         <div className="timeline-panel">
           <div className="timeline-heading">

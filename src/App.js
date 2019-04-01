@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import DataJson from './data/data.json'
-import Header from './components/Headers/Header.jsx'
-import Body from './components/Body/Body'
-import Footer from './components/Footer/index'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import RouterLink from './Router/RouterLink';
+import Home from './Home'
+import First from './First';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header data={DataJson} />
-        <Body data={DataJson} />
-        <Footer data={DataJson} />
+        <RouterLink/>
       </div>
     );
   }
